@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 열린태그 + 닫힌태그 형태 -->
+    <!-- type -->
+    <input type="text">
+    <input type="date">
+    <input type="password">
+    <!-- value -->
+    <input type="text" value="안녕">
+    <!-- placeholder -->
+    <input type="text" placeholder="id를 입력해주세요">
+
+    <!-- radio 
+            한가지만 선택이 가능한 버튼
+            <input type="radio" name="그룹명">
+            name으로 그룸으로 묶어서 나타낸다.
+            radio, checkbox의 value는 내부 값
+        -->
+    <br>
+    자바반: <input type="radio" value="java" name="class">
+    파이썬반: <input type="radio" value="python" name="class">
+    임베디드반: <input type="radio" value="embede" name="class">
+
+    <!-- checkbox 
+            다중 선택이 가능하다.
+            checked 옵션을 활용하면 체크가 된채로 시작
+        -->
+    치킨: <input type="checkbox" value="치킨" name="food">
+    삼겹살: <input type="checkbox" value="삼겹살" name="food" checked>
+
+    <!-- submit 
+            form태그 안에서 활용
+            서버에 제출하기 위한 버튼
+            value를 지정하지 않으면 기본값이 제출로 표시
+            클릭시 새로고침이 일어난다.
+        -->
+    <input type="submit" value="제출하기">    
+    
+    <!-- button 
+            버튼으로 활용하기 위한 input 태그
+            value가 없으면 빈값이 나온다.
+        -->
+    <input type="button" value="버튼"> 
+
+</body>
+</html>
